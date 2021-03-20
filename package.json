@@ -18,9 +18,11 @@
     "@react-navigation/stack": "^5.9.3",
     "algoliasearch": "^4.8.3",
     "axios": "^0.21.0",
-    "core-js": "^2.6.11",
+    "babel-runtime": "^6.26.0",
+    "core-js": "^2.6.12",
     "expo": "~39.0.2",
     "expo-av": "~8.6.0",
+    "expo-cli": "^4.3.0",
     "expo-notifications": "~0.7.2",
     "expo-permissions": "~9.3.0",
     "expo-status-bar": "~1.0.2",
@@ -58,7 +60,9 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0"
+    "@babel/core": "~7.9.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0"
   },
   "private": true
 }

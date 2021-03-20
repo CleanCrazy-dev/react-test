@@ -159,6 +159,7 @@ export default function LawyerProfile({ navigation }) {
   }, []);
 
   useEffect(() => {
+    console.log('BackgroundTimeer')
     BackgroundTimer.runBackgroundTimer(() => {
       console.log("BackgroundTimer is working!!!");
     }, 1000);
