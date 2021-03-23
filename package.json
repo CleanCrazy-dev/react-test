@@ -1,9 +1,8 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
@@ -18,21 +17,21 @@
     "@react-navigation/stack": "^5.9.3",
     "algoliasearch": "^4.8.3",
     "axios": "^0.21.0",
-    "babel-runtime": "^6.26.0",
-    "core-js": "^2.6.12",
+    "core-js": "^2.6.11",
     "expo": "~39.0.2",
     "expo-av": "~8.6.0",
-    "expo-cli": "^4.3.0",
     "expo-notifications": "~0.7.2",
     "expo-permissions": "~9.3.0",
+    "expo-splash-screen": "~0.6.2",
     "expo-status-bar": "~1.0.2",
     "expo-task-manager": "^9.0.0",
+    "expo-updates": "~0.3.2",
     "firebase": "^8.2.1",
-    "lottie-react-native": "~2.6.1",
+    "lottie-react-native": "^3.5.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-instantsearch-native": "^6.8.2",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+    "react-native": "~0.63.3",
     "react-native-background-timer": "^2.4.1",
     "react-native-countdown-component": "^2.7.1",
     "react-native-crypto-js": "^1.0.0",
@@ -49,6 +48,7 @@
     "react-native-screens": "~2.10.1",
     "react-native-set-soft-input-mode": "^1.1.0",
     "react-native-textarea": "^1.0.4",
+    "react-native-unimodules": "~0.11.0",
     "react-native-voice-oop": "^2.0.0",
     "react-native-web": "~0.13.12",
     "react-navigation": "^4.4.2",
@@ -61,8 +61,11 @@
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.1.0"
+    "babel-jest": "~25.2.6",
+    "jest": "~25.2.6",
+    "react-test-renderer": "~16.13.1"
   },
-  "private": true
+  "private": true,
+  "name": "react-test",
+  "version": "1.0.0"
 }
